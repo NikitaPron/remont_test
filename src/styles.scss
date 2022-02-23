@@ -244,6 +244,18 @@ $POP-UP_BTN_BG: #FFDA1F;
         font-weight: bold;
         font-size: 16px;
         color: $PRIMARY;
+
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        & span {
+            display: block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #F7A238;
+        }
     }
 
     &__dignity {
